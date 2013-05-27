@@ -1,0 +1,41 @@
+#Error
+EXPECTING_JSON_DATA=Expecting Json data
+MISSING_PARAMETER=Missing parameter: {0}
+FACEBOOK_ACCESS_TOKEN_INVALID=Invalid facebookAccessToken
+ACCESS_TOKEN_INVALID=Invalid accessToken
+JSON_MAPPING_INVALID=Invalid Json mapping
+
+COUNTRY_NOT_FOUND=Country with code {0} not found
+USER_NOT_FOUND=User with id {0} not found
+ITEM_NOT_FOUND=Item with id {0} not found
+ORDER_NOT_FOUND=Order with id {0} not found
+TEMPORARY_TOKEN_INVALID=Invalid temporaryToken
+
+USER_NOT_A_FRIEND=User with id {0} is not a friend
+ITEM_NOT_EXCHANGEABLE=Item not exchangeable
+ITEM_NOT_EXCHANGEABLE_SURPRISE=Item not exchangeable, is a surprise
+INVALID_ITEM_CHOICE=Invalid product choice
+MISSING_SHIPMENT_INFORMATION=Missing shipment information
+INVALID_SHIPMENT_INFORMATION=Invalid shipment information
+INVALID_SHIPMENT_COUNTRY=Invalid shipment country
+INVALID_ORDER_STATUS=Invalid order status
+PAYMENT_UNSUCCESSFUL=Payment for order {0} unsuccessful
+
+INVALID_CAMPAIGN_ITEM=Invalid campaign product
+CAMPAIGN_LIMIT_REACHED=Campaign with id {0} has reached limit
+ORDER_UNSUCCESSFUL=Order unsuccessful
+
+INVALID_EVENTS=Invalid events
+INVALID_FRIENDS=Invalid friends
+
+INVALID_OBJECT=Invalid {0} ({1})
+
+UNAUTHORIZED=Unauthorized
+
+
+#Non-Error
+ORDER_CREATED=Order {0} created
+RECORD_FOUND={0} {1} found
+PAYMENT_AUTHORIZATION_SUCCESSFUL=Payment authorization for order {0} successful
+PAYMENT_CONFIRMATION_SUCCESSFUL=Payment confirmation for order {0} successful
+

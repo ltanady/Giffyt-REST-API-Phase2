@@ -1,0 +1,39 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                               controllers.Application.index()
+
+POST    /login                          controllers.Application.login()
+
+POST    /events                         controllers.Friends.events()
+
+POST    /friends                        controllers.Friends.friends()
+
+POST    /friends/get                    controllers.Friends.get()
+
+POST    /friends/celebrate              controllers.Friends.celebrateFriend()
+
+POST    /countries/list                 controllers.Countries.list()
+
+POST    /products/list                  controllers.Products.list()
+
+POST    /products/get                   controllers.Products.get()
+
+POST    /orders/save                    controllers.Orders.save()
+
+POST    /gifts/count                    controllers.Gifts.count()
+
+POST    /gifts/list                     controllers.Gifts.list()
+
+POST    /gifts/get                      controllers.Gifts.get()
+
+POST    /payments/paypal/authorize      controllers.Payments.authorizePaypalPayment()
+
+POST    /payments/paypal/confirm        controllers.Payments.confirmPaypalPayment()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+
